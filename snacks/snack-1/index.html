@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins:wght@300;400&family=Sixtyfour&display=swap"
+        rel="stylesheet">
+
 
 
     <!-- bootstrap -->
@@ -25,7 +32,39 @@
 
 
 
-<body>
+<body data-bs-theme="dark">
+    <main>
+        <nav class="container d-flex row-cols-3 justify-content-center my-5 p-4 rounded-3">
+            <div class="">
+                <a class="btn btn-outline-warning btn-lg button-style text-uppercase mb-2 w-100" href="../index.html"
+                    role="button">go
+                    back
+                    to directory</a>
+                <div class="d-flex justify-content-center gap-2 ">
+                    <a class="btn btn-outline-warning btn-lg button-style text-uppercase w-100" href="../snack-2/"
+                        role="button">next</a>
+                    <a class="btn btn-outline-warning btn-lg button-style text-uppercase w-100" href="../snack-1/"
+                        role="button">previous</a>
+                </div>
+            </div>
+            <div class="px-3">
+                <h1 id="title" class="fs-5">snack 1</h1>
+                <p>L’utente inserisce due parole in successione, con due prompt.
+                    Il software stampa prima la parola più corta, poi la parola più lunga.</p>
+
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="input-group">
+                <span class="input-group-text">First and second word</span>
+                <input type="text" aria-label="First name" class="form-control">
+                <input type="text" aria-label="Last name" class="form-control">
+            </div>
+        </div>
+
+
+    </main>
 
 
 
