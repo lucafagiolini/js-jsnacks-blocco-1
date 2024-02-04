@@ -14,3 +14,9 @@ nav {
     border: solid 5px;
     border-color: rgb(157, 157, 157);
 }
+
+#result-box {
+
+    background-color: rgb(49, 49, 49);
+    color: #ffffff;
+}

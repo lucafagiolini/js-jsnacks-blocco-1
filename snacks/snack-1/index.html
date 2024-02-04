@@ -58,8 +58,20 @@
         <div class="container">
             <div class="input-group">
                 <span class="input-group-text">First and second word</span>
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
+                <input id="first-word" type="text" aria-label="First word" class="form-control">
+                <input id="second-word" type="text" aria-label="Second word" class="form-control">
+            </div>
+            <div class="my-3">
+                <input id="run-btn" class="btn btn-primary" type="submit" value="Submit">
+                <div id="result-box"
+                    class="d-flex justify-content-center display-2 gap-3 text-uppercase rounded-3 my-5">
+                    <div>
+                        <span id="result-1"></span>
+                    </div>
+                    <div>
+                        <span id="result-2"></span>
+                    </div>
+                </div>
             </div>
         </div>
 
